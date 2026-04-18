@@ -47,11 +47,11 @@ Copyright &copy; 2026 Marco Guerreiro
 nav = [
   { "Home" = "index.md" },
   { "CV" = [
-      "cv/cv.md",
+      "cv/index.md",
       "cv/prototypes.md"
   ]},
   { "Posts" = [
-      "posts/about.md",
+      "posts/index.md",
       "posts/vitis-2025-2-mint-22-2.md"
   ]}
 ]

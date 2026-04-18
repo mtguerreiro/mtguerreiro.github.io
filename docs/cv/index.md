@@ -1,6 +1,5 @@
 ---
 template: "cv.html"
-icon: lucide/contact
 title: "CV"
 hide:
   - toc
