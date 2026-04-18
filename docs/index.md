@@ -6,7 +6,7 @@ hide:
 
 # About
 
-This website shares some of my (bad) experience in embedded systems, control systems, power converter control, and more. Check out my [blog posts](/posts/about/)!
+This website shares some of my (bad) experience in embedded systems, control systems, power converter control, and more. Check out my [blog posts](/posts/)!
 
 ## Contact
 
