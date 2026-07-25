@@ -20,20 +20,22 @@ You can reach out to me via [LinkedIn](https://www.linkedin.com/in/mtl-guerreiro
 
 -----------
 
-### Dr.-Ing. (Doctor of Engineering) <span class="cv-date">08/2020 - current</span>
+### Doctoral student <span class="cv-date">08/2020 - current</span>
 *RPTU Kaiserslautern-Landau, Kaiserslautern, Germany*
 
 - Proposed a grid-forming control strategy for the boost, Ćuk, and SEPIC converters. The strategy uses feedback linearization and model predictive control to regulate the energy of these converters and provide the grid-forming behavior, while accounting for duty cycle and input current constraints.
 - Designed and implemented a real-time controller based on the Zynq-7000 SoC, using one core of the processor to serve a TCP-based command-line interface, the second core to run real-time control algorithms, and the FPGA to interface with power converters by generating PWM signals and reading ADCs
 - Created Python-based tools to parametrize and fetch data from networked real-time controllers for debugging, operation and automation purposes
-- Built several prototypes for research and teaching, including a minimal 700 V dc grid for experiments with supercapacitors, a [four-switch buck-boost converter](prototypes.md#fsbb), and an [isolated Ćuk converter](prototypes.md#cuk)
+- Built several prototypes for research and teaching, including a minimal 700 V dc grid for experiments with supercapacitors, a [700 V boost converter](prototypes.md#boost-700v), a [four-switch buck-boost converter](prototypes.md#fsbb), and an [isolated Ćuk converter](prototypes.md#cuk)
 - Supervised 7 master theses and 5 bachelor theses
 - Published 7 research papers and attended 5 international conferences
 
 ### Master of Science in Electrical Engineering <span class="cv-date">09/2018 - 08/2020</span>
 *Federal University of Technology - Paraná, Pato Branco, PR, Brazil*
 
-- Thesis: Implementation of frequency-domain algorithms for ultrasonic imaging based on interpolation-free Stolt migration
+- Thesis: Frequency-domain algorithms for ultrasonic imaging based on interpolation-free Stolt migration
+    - [Link](https://repositoriocopia.utfpr.edu.br/jspui/handle/1/5136)
+    - [Download](downloads/ultrasonicimagingsoltmigration.pdf){:download="ultrasonicimagingsoltmigration.pdf"}
 - Implemented and optimized time-domain and frequency-domain algorithms for ultrasonic imaging with Python
 
 ### Undegraduate Exchange Student in Electrical Engineering <span class="cv-date">08/2015 - 05/2016</span>
@@ -45,12 +47,14 @@ You can reach out to me via [LinkedIn](https://www.linkedin.com/in/mtl-guerreiro
 *Federal University of Technology - Paraná, Pato Branco, PR, Brazil*
 
 - Thesis: A comparative study and analysis between the compressed sensing and undersampling techniques
+    - [Link](https://repositoriocopia.utfpr.edu.br/jspui/handle/1/15094)
+    - [Download](downloads/compressedsensingundersampling.pdf){:download="compressedsensingundersampling.pdf"}
 - Physics teaching assistant (10/2014 - 05/2015)
 - Physics research assistant (10/2013 - 04/2015)
     - Simulation of tapered fiber optics to detect water quality
 - Tutored workshops
     - Introduction to Matlab (4h, 09/2017) 
-    - Introduciton to Python (4h, 09/2018)
+    - Introduction to Python (4h, 09/2018)
 
 
 ### Electronics technician <span class="cv-date">02/2009 - 12/2011</span>
