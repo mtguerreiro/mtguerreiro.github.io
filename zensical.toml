@@ -48,8 +48,9 @@ nav = [
   { "Home" = "index.md" },
   { "CV" = [
       "cv/index.md",
-      "cv/prototypes.md"
-  ]},
+      "cv/prototypes.md",
+      "cv/publications.md"
+    ]},
   { "Posts" = [
       "posts/index.md",
       "posts/vitis-2025-2-mint-22-2.md"
@@ -318,6 +319,10 @@ pygments_lang_class = true
 [project.markdown_extensions.pymdownx.inlinehilite]
 [project.markdown_extensions.pymdownx.snippets]
 [project.markdown_extensions.pymdownx.superfences]
+
+[project.markdown_extensions.pymdownx.emoji]
+emoji_generator = "zensical.extensions.emoji.to_svg"
+emoji_index = "zensical.extensions.emoji.twemoji"
 
 [project.markdown_extensions.attr_list]
 [project.markdown_extensions.md_in_html]
