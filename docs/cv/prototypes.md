@@ -34,3 +34,23 @@ I've assembled this prototype to integrate a 350 V supercapacitor bank to a 700 
 /// caption
 Prototype of the 700 V boost converter developed at the RPTU
 ///
+
+## Experimental 700 V dc grid
+
+I've assembled this prototype to test a grid-supporting strategy in a dc grid. The main idea was to use a supercapacitor bank to compensate power transients in the grid. The grid consists of three main units:
+
+- A grid-forming unit built with a programmable power supply and a boost converter
+- A grid-supporting unit built with a supercapacitor bank and a boost converter
+- A load realized with a programmable power supply.
+
+The diagram of the grid and its realization are shown in the images below.
+
+![dc grid diagram](images/dc-grid-diagram.svg){ width="350" }
+/// caption
+Diagram of the experimental dc grid
+///
+
+![dc grid realization](images/dc-grid-hw.svg){ width="300" }
+/// caption
+Hardware setup of the experimental dc grid
+///

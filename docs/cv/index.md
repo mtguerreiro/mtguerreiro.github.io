@@ -21,16 +21,16 @@ You can reach out to me via [LinkedIn](https://www.linkedin.com/in/mtl-guerreiro
 -----------
 
 ### Doctoral student <span class="cv-date">08/2020 - current</span>
-*RPTU University Kaiserslautern-Landau, Kaiserslautern, Germany*
+*Lehrstuhl für Regelungssysteme, RPTU University Kaiserslautern-Landau, Kaiserslautern, Germany*
 
 In my research, I proposed a different approach to grid-forming control of power converters. At a fundamental level, grid-forming is about power balancing. So instead of approaching grid-forming as a voltage control problem (the usual approach), I looked at approaching it as an energy regulation problem. It turns out that controlling the energy of some nonlinear nonminimum phase dc-dc converters is much simpler than controlling their voltage. During my research, I also:
 
-- Investigated real-time implementation of model predictive controllers on the Zynq-7020 SoC using hardware and software co-design
+- Researched real-time implementation of model predictive controllers on the Zynq-7020 SoC using hardware and software co-design. I used C and high-level synthesis for the implementation, and processor-in-the-loop to validate the controllers in closed-loop
 - Designed and implemented a real-time control framework for the Zynq-7020 SoC, using one core for real-time control, one core for interfacing, and the FPGA for signal generation and acquisition
-- Created Python-based tools to parametrize and fetch data from networked real-time controllers for debugging, operation and automation purposes
-- Built several prototypes for research and teaching, including a minimal 700 V dc grid for experiments with supercapacitors, a 700 V boost converter, a four-switch buck-boost converter, and an isolated Ćuk converter
-- Supervised 7 master theses and 5 bachelor theses
-- Published 8 research papers and attended 5 international conferences
+- Developed several prototypes for research and teaching, including a minimal 700 V dc grid for experiments with supercapacitors, a 700 V boost converter, a four-switch buck-boost converter, and an isolated Ćuk converter
+- Cretead Python-based tools to automate hardware tests in an experimental dc grid, automating parametrization and data logging of multiple power converters
+- Supervised 7 master's and 5 bachelor's theses
+- Published 9 research papers and attended 5 international conferences
 
 ### Master of Science in Electrical Engineering <span class="cv-date">09/2018 - 08/2020</span>
 *Federal University of Technology - Paraná, Pato Branco, PR, Brazil*
@@ -41,7 +41,7 @@ During my master's, I worked with ultrasonic imaging for nondestructive testing 
 - Used CIVA to simulate NDT using full-matrix capture and plane-wave imaging techniques
 
 
-### Undegraduate Exchange Student in Electrical Engineering <span class="cv-date">08/2015 - 05/2016</span>
+### Undergraduate Exchange Student in Electrical Engineering <span class="cv-date">08/2015 - 05/2016</span>
 *The University of Vermont, Burlington, VT, USA*
 
 During my undergraduate studies I spent two semesters as an exchange student at UVM. I had the opportunity to take courses in power electronics, power systems, and synthetic biology. I also:
@@ -51,12 +51,12 @@ During my undergraduate studies I spent two semesters as an exchange student at 
 ### Bachelor of Science in Electrical Engineering <span class="cv-date">11/2012 - 09/2018</span>
 *Federal University of Technology - Paraná, Pato Branco, PR, Brazil*
 
-I did my bachelor's in electrical engineering with a focus on embedded systems. In my thesis, I compared compressed sensing and undersampling for digital signal reconstruction. Other activities I did during my undegraduate studies were:
+I did my bachelor's in electrical engineering with a focus on embedded systems. In my thesis, I compared compressed sensing and undersampling for digital signal reconstruction. Other activities I did during my undergraduate studies were:
 
 - Physics teaching assistant (10/2014 - 05/2015)
 - Physics research assistant (10/2013 - 04/2015)
     - Simulation of tapered fiber optics to detect water quality
-- Tutored workshops for undegraduate students
+- Tutored workshops for undergraduate students
     - Introduction to Matlab (4h, 09/2017) 
     - Introduction to Python (4h, 09/2018)
 
@@ -78,7 +78,7 @@ During high school, I also earned a qualification as an electronics technician.
 I took part in a project hosted by the business incubator at the Federal University of Technology - Paraná to develop a smart irrigation automation system based on soil moisture measurements. During this time, I
 
 - Co-authored two successful grant proposals, obtaining funding for the research and development of the smart irrigation system
-- Wrote the firmware for an irrigation controller with sectoring capabilities and moisture parametrization using C and FreeRTOS
+- Wrote the firmware for an irrigation controller with sectoring capabilities and moisture parametrization using C and FreeRTOS, running on an STM32 microcontroller
 - Designed and prototyped a wired capacitive soil moisture sensor
 - Supervised the development of a wireless capacitive soil moisture sensor using LoRa for data transmission
 
@@ -97,9 +97,10 @@ After completing my two semesters abroad at UVM, I did a 10-week summer internsh
 - Prototyped a platform for holding test tubes and exposing them to controlled LED illumination for optogenetics experiments
 - Cultured bacteria and conducted optogenetics experiments
 
-### Teaching assistant at National Service of Industrial Training <span class="cv-date"> <span>07/2013 - 12/2013</span> <span>02/2015 - 06/2015</span></span>
+### Teaching assistant at National Service of Industrial Training (SENAI) <span class="cv-date"> <span>07/2013 - 12/2013</span> <span>02/2015 - 06/2015</span></span>
 *Pato Branco, PR, Brazil*
 
+I taught two semesters at SENAI, where I
 
 - Lectured on digital electronics and microcontrollers with C programming
 - Supervised students' final projects
